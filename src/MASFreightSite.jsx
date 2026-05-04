@@ -1328,7 +1328,7 @@ function MarketingWebsite({ onAdminLogin }) {
 // ROOT
 // ─────────────────────────────────────────────────────────────────────────────
 export default function MASFreightSite() {
-  const [view, setView] = useState("dispatcher");
+  const [view, setView] = useState("website");
   const [showAdminModal, setShowAdminModal] = useState(false);
 
   useEffect(() => {
